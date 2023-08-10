@@ -94,6 +94,7 @@ body {
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  background: rgba(245, 245, 245, 0.2);
 }
 
 .list li label {
@@ -127,7 +128,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: #0679b2;
 }
 
 .list li label:hover::before {

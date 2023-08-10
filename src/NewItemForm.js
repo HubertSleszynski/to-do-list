@@ -7,7 +7,6 @@ export default function NewItemForm({ addTodo }) {
     e.preventDefault();
     if (newItem === "") return;
     addTodo(newItem);
-
     setNewItem("");
   }
   return (
@@ -19,6 +18,7 @@ export default function NewItemForm({ addTodo }) {
           onChange={e => setNewItem(e.target.value)}
           type="text"
           id="item"
+          autoFocus
         />
       </div>
       <button className="btn">Add</button>
